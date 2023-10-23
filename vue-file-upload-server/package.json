@@ -1,0 +1,22 @@
+{
+  "name": "vue-file-upload-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/bodyparser": "^5.0.0",
+    "@koa/cors": "^4.0.0",
+    "@koa/multer": "^3.0.2",
+    "@koa/router": "^11.0.2",
+    "fs-extra": "^11.1.1",
+    "koa": "^2.14.2",
+    "koa-static": "^5.0.0",
+    "multer": "1.4.5-lts.1"
+  }
+}
